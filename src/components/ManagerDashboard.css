@@ -1,0 +1,176 @@
+/* Container styling */
+.manager-dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: linear-gradient(135deg, #1e3c72, #2a5298, #2c5364);
+    font-family: 'Arial', sans-serif;
+    color: #ecf0f1;
+
+  }
+  
+  /* Header styling */
+  .manager-dashboard-container h2 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #ffffff;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Dashboard content styling */
+  .manager-dashboard-content {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    width: 80%;
+  }
+  
+  /* Employee Form styling */
+  .employee-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .employee-form input {
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-form button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #34495e;
+    color: #ecf0f1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  .employee-form button:hover {
+    background-color: #3e8e9e;
+  }
+  
+  /* Employee List styling */
+  .employee-item {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-item h4 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .employee-item h5 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #666;
+    font-weight: normal;
+  }
+  
+  .employee-item ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .employee-item ul li {
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #555;
+    display: flex;
+    align-items: center;
+  }
+  
+  .employee-item ul li strong {
+    margin-right: 10px;
+    color: #4999a6;
+  }
+  
+  .employee-item button {
+    margin-left: 10px;
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: #4999a6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .employee-item button:hover {
+    background-color: #3a7f89;
+  }
+  
+  .employee-item button:first-child {
+    margin-right: 10px;
+  }
+  
+  .employee-item ul li button {
+    margin-left: auto;
+  }
+  .employee-item {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-item h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .employee-item h5 {
+    margin: 10px 0 5px;
+    font-size: 16px;
+  }
+  
+  .employee-item ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .employee-item ul li {
+    margin: 5px 0;
+  }
+  
+  .employee-item button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .employee-item button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-employee-btn {
+    background-color: #dc3545;
+  }
+  
+  .delete-employee-btn:hover {
+    background-color: #c82333;
+  }
+   
+  

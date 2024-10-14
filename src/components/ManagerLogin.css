@@ -1,0 +1,74 @@
+/* Container styling */
+.manager-login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(120deg, #2c3e50, #4ca1af);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header styling */
+  .manager-login-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ecf0f1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Input fields styling */
+  .manager-login-container input {
+    width: 80%;
+    max-width: 400px;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Input focus effect */
+  .manager-login-container input:focus {
+    outline: none;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+  }
+  
+  /* Button styling */
+  .manager-login-container button {
+    width: 80%;
+    max-width: 400px;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    background: #34495e;
+    color: #ecf0f1;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button hover effect */
+  .manager-login-container button:hover {
+    background: #4ca1af;
+    transform: translateY(-3px);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .manager-login-container h2 {
+      font-size: 2rem;
+    }
+  
+    .manager-login-container input,
+    .manager-login-container button {
+      width: 90%;
+      font-size: 1rem;
+    }
+  }
+  

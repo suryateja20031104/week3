@@ -1,0 +1,77 @@
+/* Overall container styling */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(120deg, #3a6073, #16222a);
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+  }
+  
+  /* Header styling */
+  .login-container h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    color: #f8f9fa;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Description paragraph styling */
+  .login-container p {
+    font-size: 1.4rem;
+    color: #ced4da;
+    margin-bottom: 25px;
+  }
+  
+  /* Buttons container */
+  .login-buttons {
+    display: flex;
+    gap: 30px;
+  }
+  
+  /* Button styling */
+  .login-buttons a button {
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: #343a40;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Hover effect for buttons */
+  .login-buttons a button:hover {
+    background: #495057;
+    color: #f8f9fa;
+    transform: translateY(-5px);
+  }
+  
+  /* Focused button effect */
+  .login-buttons a button:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.6);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .login-container h2 {
+      font-size: 2.2rem;
+    }
+  
+    .login-buttons a button {
+      padding: 12px 30px;
+      font-size: 1rem;
+    }
+  
+    .login-buttons {
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+  
